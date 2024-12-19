@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",  // You can adjust depending on your needs.
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,  // Helps with package-type compatibility issues
+    "forceConsistentCasingInFileNames": true
+  }
+}

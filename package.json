@@ -1,0 +1,26 @@
+{
+  "name": "githubassistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node server.ts",
+    "build": "tsc",
+    "start:prod": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^21.0.2",
+    "@prisma/client": "^6.1.0",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "ts-node": "^10.9.1",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.16.0"
+  }
+}
